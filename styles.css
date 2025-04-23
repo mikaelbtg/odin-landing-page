@@ -130,3 +130,56 @@ a{
     font-size: 24px;
     align-self: center;
 }
+
+.cta-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 0;
+}
+
+.cta-box{
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    width: 1000px;
+    height: 150px;
+}
+
+.cta-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-title{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cta-action{
+    color: white;
+    font-size: 16px;
+}
+
+.cta-button{
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    background-color: #3882F6;
+    border: 2px solid white;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0;
+    background-color: #1F2937;
+    color: white;
+}
