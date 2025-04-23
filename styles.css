@@ -69,3 +69,39 @@ a{
     height: 250px;
     color: #F9FAF8;
 }
+
+.box{
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 25px;
+}
+
+.information-header{
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding: 48px 0;
+}
+
+.information-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.information-box{
+    width: 170px;
+    gap: 10px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    color: #1F2937;
+    padding-bottom: 108px;
+}
